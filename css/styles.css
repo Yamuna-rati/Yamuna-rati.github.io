@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial,sans-serif;
+	
+}
+
+.clearfix{
+ clear: both;
+ content: '';
+display: table;
+width: 100%;
+}
+
+.left_column{
+	width: 40%;
+	height: 100vh;
+	background: url(../images/cosmos.jpg) no-repeat center top / cover;
+	display: block;
+	float: left;
+
+}
+
+.right_column{
+	width: 60%;
+	height: 100vh;
+	background: url(../images/soul.png) no-repeat center top / cover;
+	display: block;
+	float: right;
+}
+
+.container_left{
+	width: 50%;
+	min-width: 207px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container_right{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.photo img{
+	margin: 0 auto;
+	border-radius: 3%;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+
+.intro {
+	margin-top: 40px;
+	color: #dbffff;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 1,5;
+}
+h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li{
+	display: block;
+	padding: 5px 0;
+}
+
+.name h1{
+	font-size: 25px;
+	text-decoration: none;	
+}
+
+.container_right h1, h3{
+	display: inline-block;
+	color: #fac800;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.about_me, .edu, .additional_edu, .volonteer{
+	padding-top: 20px;
+	color: #000;
+	font-weight: bold;
+}
+.additional_edu, .volonteer a{
+	color: #a10b42
+}
+.volonteer p{
+	font-color: #000;
+}
+.btn{
+	background: #fac800;
+	display: block;
+	width: 150px;
+	border-radius: 15px;
+	border: 2px solid #fac800;
+	padding: 10px 0;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	color: #070707;
+}
+
+.btn:hover{
+	
+	color: #fac800;
+	background: #a10b42;
+}
+
+.work li{
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.work{
+	margin-left: -20px;
+}
+
+
+p{
+	padding-top: 8px;
+	line-height: 1.5;
+}
