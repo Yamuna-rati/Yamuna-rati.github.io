@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial sans-serif;
+	font-color: grey;
+}
+
+h2{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.wrapper{
+	width: 972px;
+	height: 455px;
+	min-width: 100px;
+	border: 1px solid #d3d3d3;
+	margin: 0 auto;
+	position: relative;
+}
+.wrapper:before , .wrapper:after{
+	content: '';
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	border: 2px solid #d3d3d3;
+	background: white;
+	position:absolute;
+	top: 78px;
+	text-align: center;
+	line-height: 2;
+	color: #d3d3d3;
+	font-size: 18px;
+
+}
+.wrapper:before{
+	content: '<';
+	left:-20px;
+}
+.wrapper:after{
+	content: '>';
+	right:-20px;
+}
+
+.product{
+	width: 25%;
+	height: 100%;
+	border-right: 1px solid #d3d3d3;
+	float: left;
+	padding: 20px;
+	position:relative;	
+	text-align: center;	
+}
+
+.product:last-child{
+	border:none;
+}
+.product_category a{
+	text-decoration: none;
+	color: grey;
+}
+.product_category{
+	height: 80px;
+	border-bottom: 1px solid #d3d3d3;	 
+	text-transform: uppercase;
+	text-align: center;	
+	line-height: 3;
+
+}
+.sticker_new, .sticker_hit { 
+	width: 70px;
+	height: 70px;
+	border: 2px solid white;
+	border-radius: 100%;
+	position: absolute;
+	right: 5px;
+	top:-35px;
+	text-align: center;
+	font-size:10px;
+	text-transform: uppercase;
+	color:white;	
+}
+
+.sticker_new{
+	background:#86b022;
+	padding: 25px 0;
+}
+
+.sticker_hit{
+	background: #009de1;
+	padding: 20px 0;
+}
+
+figure img{
+	height: 140px;
+}
+
+figure{
+	margin: 0 auto;
+	margin-top: 25px;
+}
+figcaption {
+	margin-top: 25px;
+	text-transform: uppercase;
+	color: 009de1;
+	font-weight: bold;
+	text-align: center;
+}
+figcaption a {
+	text-decoration: none;
+	color: #009de1;
+
+
+}
+.price{
+	margin-top: 25px;
+	text-transform: none;
+	color:black;
+	font-weight: bold;
+}
+.button_soon, .basket_button{
+	width: 140px;
+	height: 40px;
+	margin:0 auto;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	
+}
+.button_soon{
+	background: #cc3399;
+	margin-top: 60px;
+	padding: 3px;
+}
+.basket_button{
+	background: yellow;
+	color: black;
+	line-height: 3;
+}
+.button_soon a{
+	text-decoration: none;
+	color: white;
+	
+}
+.basket_button a{
+	text-decoration: none;
+	color: black;
+}
+.old_price:before{
+	content: '210 грн';
+	font-size: smaller;
+	text-decoration: line-through;
+}
