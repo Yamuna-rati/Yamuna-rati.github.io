@@ -51,7 +51,6 @@ width: 100%;
 	margin: 0 auto;
 	border-radius: 3%;
 }
-
 .sprites{
 	margin-top: 30px;
 }
@@ -145,6 +144,28 @@ li{
 	text-align: center;
 	font-weight: bold;
 	color: #070707;
+}
+
+.btn:hover{
+	
+	color: #fac800;
+	background: #a10b42;
+}
+
+.work li{
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.work{
+	margin-left: -20px;
+}
+
+
+p{
+	padding-top: 8px;
+	line-height: 1.5;
 }
 
 .btn:hover{
