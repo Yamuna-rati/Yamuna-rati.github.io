@@ -52,6 +52,39 @@ width: 100%;
 	border-radius: 3%;
 }
 
+.sprites{
+	margin-top: 30px;
+}
+.sprites ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sprites li{
+	display: inline-block;
+	background: url(../css_sprites.png) no-repeat;
+	width: 34px;
+	height: 34px;
+	cursor: pointer;
+	
+	
+}
+
+.sprites .mail{
+	background-position: -17px -17px;
+
+}
+
+.sprites .facebook{
+	background-position: -85px -17px;
+}
+.sprites .instagram{
+	background-position: -154px -17px;
+}
+.sprites .youtube{
+	background-position: -222px -17px;
+}
+
 a{
 	color: #000;
 	text-decoration: none;
