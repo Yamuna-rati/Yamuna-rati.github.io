@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 1.2;
+}
+img{
+	display: block;
+	width: 100%;
+
+}
+@media (min-width: 767px){
+	.page-wrap{
+	background: #09859d;
+	padding: 40px 10px 20px 10px;
+}
+}
+.main-wrap{
+	background-color: #fff;
+	padding: 0 5px;
+}
+
+.propose-text .center{
+	text-align: center;
+	padding-top: 20px;
+}
+
+span{
+	display: block;
+	padding: 10px 5px 10px 5px;
+
+}
+ul{
+	padding: 10px;
+}
+
+
+
+.propose-item{
+	min-height: 355px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.btn{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #cf5b4e;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}	
+.propose-btn{
+	width: 100%;
+	position: static;
+	bottom: 0;
+}
+.propose-price{
+	padding: 10px 0 10px 0;
+	text-align: center;
+	font-weight: 700;
+}
+footer{
+	background: #09859d;
+	padding: 20px 0 20px 0;
+	margin-top: 20px;
+	
+}
+.sprites{
+	display: flex;
+	justify-content: center;
+}
+
+.sprites>ul{
+	list-style: none;
+}
+.sprites li{
+	background: url(../images/css_sprites.png) 0 0/ 70px 35px no-repeat;
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+
+}
+.sprites .fb{
+	background-position: 0 0;
+}
+.sprites .vk{
+	background-position: -35px 0;
+}
+footer{
+	text-align: center;
+	color: white;
+}
+.unsubscribe{
+	color: white;
+	font-weight: 700;
+}
+
+.normal{
+	font-weight: normal;
+	color: blue;
+}
+
+
+@media (min-width: 767px){
+.main-wrap{
+	padding: 0 25px 25px 25px;
+	line-height: 1.5;
+}
+  
+.col-1-2{
+	width: calc(50% - 15px);
+	}
+.propose-item{
+	float: left;	
+	margin-right: 30px;
+}
+.propose-item:last-child{
+	margin: 0 ;
+}	
+footer{
+	margin-top:25px;
+}
+.clearfix, .clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+section{
+	padding: 0 75px;
+	text-align: justify;
+	width: 100%;
+}
+.row{
+	
+	padding-bottom: 30px;
+}
+}
+footer span:nth-child(2){
+	font-weight:bold;
+}
