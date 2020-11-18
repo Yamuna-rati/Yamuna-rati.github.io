@@ -84,6 +84,7 @@ footer{
 }
 .sprites li{
 	background: url(../images/css_sprites.png) 0 0/ 70px 35px no-repeat;
+
 	display: inline-block;
 	height: 35px;
 	width: 35px;
